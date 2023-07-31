@@ -16,6 +16,9 @@ Steps for execution -
 API URLS -
 
 http://localhost:8080/sortByStar
+
 http://localhost:8080/sortByTopNumber?number=<topNumber> [expected value is any integer like -30,50,100]
+
 http://localhost:8080/filterByDate?date=<date> [desired date in this format YYYY-MM-DD, 2023-07-20]
+
 http://localhost:8080/filterByLanguage?language=<language> [language like- html,go,python etc]
