@@ -1,12 +1,26 @@
-# Redcare_Assignment
-Software Engineering, Java: Practical Task
-Service Specification
-The service should be able to provide:
-1. A list of the most popular repositories, sorted by number of stars.
-2. An option to be able to view the top 10, 50, 100 repositories should be available.
-3. Given a date, the most popular repositories created from this date onwards should be returned. A filter for the programming language would be a great addition to have.
+                                        **RedCare Pharmacy Assignment**  
+    Please go through the HELP.md file in the code base to check installation guide and API urls. I have provided some information about the assignment as per my perspective. Please have a look.
+**Benefits of my Design:**
+● For this assignment I have chosen Java as a programming language as I have several years of expertise in java.
+● Spring framework is being followed here for below reasons-
+  1. Quickandsafeenvironmentconfigurationforsoftwaredevelopment.
+  2. Reducescodelengthandsimplifiesthedevelopmentprocessbyutilizing
+  annotations for more straightforward code understanding.
+  3. FacilitatesthecreationandtestingofJava-basedapplicationsbyprovidinga
+  default setup for unit and integration tests.
+  4. TherearemanymorefacilitiesofspringbootbutIconsideredthesepointsformy
+development process.
+● Rest APIs are being used because -
+  1. ItislightweightanditcanreceiveandreturndataformatsasXML,JSONor even parameter based arguments.
+  2. Itisclientandserverindependent.Inotherwords,theRESTprotocolseparates the data storage and the UI from the server.
+  3. Itisscalableandflexible.Soanymodificationinfuturewillbeeasyand understandable.
+**Improvement Potential**
+  ● As of now these APIs can only accept the mentioned data types in the controllers. I
+  can introduce some validations which will validate and return proper error messages as an output.
+  ● Add some Authentication and Authorization mechanisms.
+  ● For development/production deployment I can prepare the jenkins pipeline when it is required.
+  ● Add Sonar and Fortify scans for this code and resolve the issues indicated by that.
+  ●Swagger for API documentation.
 
-**Implementation Details
-GitHub provides a public search endpoint which you can use for fetching the most popular Repositories:
-https://api.github.com/search/repositories?q=created:2019-01-10&sort=stars&order=desc But feel free to use any other endpoints, if you wish.
-We will really value concise and clean code, scalability, performance, and testing.**
+**Conclusion**
+    I have done this assignment as per the problem statement provided. It was a very good and effective experience to brush up my technical knowledge. I have made the easiest possible design and development for this task. Please let me know if you have any query regarding my work.
