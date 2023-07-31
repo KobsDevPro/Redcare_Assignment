@@ -1,13 +1,5 @@
-# Getting Started
 
-### Reference Documentation
-For further reference, please consider the following sections:
-
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/3.1.2/maven-plugin/reference/html/)
-* [Create an OCI image](https://docs.spring.io/spring-boot/docs/3.1.2/maven-plugin/reference/html/#build-image)
-###
-Steps for execution -
+### Steps for execution -
 1. Download this project and open in intellij or eclipse.
 2. Then run - mvn clean install.
 3. Right click on AssignmentApplication.java and Select "Run HomeworkApplication.java"
