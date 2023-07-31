@@ -2,7 +2,7 @@
 ### Steps for execution -
 1. Download this project and open in intellij or eclipse.
 2. Then run - mvn clean install.
-3. Right click on AssignmentApplication.java and Select "Run HomeworkApplication.java"
+3. Right click on AssignmentApplication.java and Select "Run AssignmentApplication.java"
 4. Application will start. Now user can navigate to postman or GoogleChrome browser to run the APIs
 ##
 API URLS -
